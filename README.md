@@ -1,28 +1,29 @@
 # Proyecto de TodoList - Con JavaScript.
 
-* Cuando clones el repositorio vuelve he instala los paquetes de node.
+___Cuando clones el repositorio vuelve he instala los paquetes de node.___
 
->>> npm install.
+`npm install.`
 
-* Para correr el Proyecto local, con el siguiente comando.
->>> npm run dev
+__Para correr el Proyecto local, con el siguiente comando.__
+
+`npm run dev`
 
 ## Paquetes instalador para Pruebas.
 
-* Jest - Paquete.
+__Jest - Paquete.__
 
->>> npm install --save-dev jest
+` npm install --save-dev jest`
 
-* Para activar los tipos en Jest.
+__Para activar los tipos en Jest.__
 
->>> npm i @jest/types
+`npm i @jest/types`
 
-* Para correr hacer pruebas en todos los componentes de Js.
+__Para correr hacer pruebas en todos los componentes de Js.__
 
->> npm install --save-dev babel-jest @babel/core @babel/preset-env
+`npm install --save-dev babel-jest @babel/core @babel/preset-env`
 
 ### Configurar el archivo babel.
 
-* Creamos el archivo babel.config.cjs.
+__Creamos el archivo babel.config.cjs.__
 
->>>module.exports = { presets: ['@babel/preset-env', {targets: {node: 'current'}}]}
+`module.exports = { presets: ['@babel/preset-env', {targets: {node: 'current'}}]}`
